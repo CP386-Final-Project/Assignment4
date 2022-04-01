@@ -25,6 +25,13 @@ char proc[3];
 int last;
 int space;
 
+struct Node{
+	int freespace;
+	int start;
+	int end;
+	struct Node *next;
+	char pid[MAX_ID];
+};
 
 int main(int argc, char *argv[]){
 
@@ -45,5 +52,10 @@ void Release(){
 void Report(){
   
   temp = top;
+  printf("avaliable space left: %d\n", top->freespace);
+  while (temp->next != NULL){
+	  printf("Addresses [%d : %d] Process %s\n", temp->next->start, temp->next->end, temp->next->pid);
+	  temp = temp->next;
+  }
 
 }
