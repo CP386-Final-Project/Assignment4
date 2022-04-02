@@ -24,6 +24,7 @@ char req[3];
 char proc[3];
 int last;
 int space;
+char alg_type[2];
 
 struct Node{
 	int freespace;
@@ -41,10 +42,14 @@ void BestFit(){
 
 }
 
-void Request(){
-
+void Request(char pid[3], int space, char alg[2]){
+	if (strcmp("B", alg)==0)
+		best_fit(pid, space);
+	else{
+		printf("Try again\n");
+		return;
+	}
 }
-
 void Release(){
 
 }
