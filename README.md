@@ -1,4 +1,4 @@
-Shaan and __'s Final Project for CP386 (Operating Systems) 
+Shaan and Mera's Final Project for CP386 (Operating Systems) 
 
 Makefile
 Screenshots
