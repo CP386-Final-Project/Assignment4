@@ -17,51 +17,38 @@ Several functions that do certain things
 
 Use examples:<br />
 For Question 1:<br />
-Enter a value: Status<br />
-Available Resources: <br />
-9 4 6 7 <br />
-Maximum Resources: <br />
-6 4 7 3 <br />
-4 2 3 2 <br />
-2 5 3 3 <br />
-6 3 3 2 <br />
-5 5 7 5 <br />
-Allocated Resources: <br />
-0 0 0 0 <br />
-1 1 1 1 <br />
-0 0 0 0 <br />
-0 0 0 0 <br />
-0 0 0 0 <br />
-Need Resources: <br />
-6 4 7 3 <br />
-3 1 2 1 <br />
-2 5 3 3 <br />
-6 3 3 2 <br />
-5 5 7 5 <br />
-Enter a value: RQ 1 2 2 2 2<br />
-State is safe, and request is satisfied<br />
-Enter a value: Status<br />
-Available Resources: <br />
-9 4 6 7 <br />
-Maximum Resources: <br />
-6 4 7 3 <br />
-4 2 3 2 <br />
-2 5 3 3 <br />
-6 3 3 2 <br />
-5 5 7 5 <br />
-Allocated Resources: <br />
-0 0 0 0 <br />
-1 1 1 1 <br />
-0 0 0 0 <br />
-0 0 0 0 <br />
-0 0 0 0 <br />
-Need Resources: <br />
-6 4 7 3 <br />
-3 1 2 1 <br />
-2 5 3 3 <br />
-6 3 3 2 <br />
-5 5 7 5 <br />
-Enter a value: Exit<br />
+Currently available resources: 10 5 7 8 
+Maximum resources from file:
+6 4 7 3 
+4 2 3 2 
+2 5 3 3 
+6 3 3 2 
+5 5 7 5 
+Enter a value: RQ 1 1 1 1 1
+State is safe, and request is satisfied
+Enter a value: Enter a value: Staut^H^H
+Enter a value: Status
+Available Resources: 
+9 4 6 7 
+Maximum Resources: 
+6 4 7 3 
+4 2 3 2 
+2 5 3 3 
+6 3 3 2 
+5 5 7 5 
+Allocated Resources: 
+0 0 0 0 
+1 1 1 1 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Need Resources: 
+6 4 7 3 
+3 1 2 1 
+2 5 3 3 
+6 3 3 2 
+5 5 7 5 
+Enter a value: 
 
 For Question 2:<br />
 
