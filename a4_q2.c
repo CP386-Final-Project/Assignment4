@@ -152,7 +152,7 @@ int main(int argc, char *argv[]) {
 		} else { //for undisered command
 			printf("This command is not recognized\n");
 		}
-		Report();
+//		Report();
 
 		printf("allocator >");
 		fflush(stdout);
